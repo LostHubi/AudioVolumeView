@@ -53,3 +53,5 @@
 ```
 
 ### 效果图
+ ![image](preview.gif)
+ 
