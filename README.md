@@ -55,3 +55,6 @@
 ### 效果图
  ![image](preview.gif)
  
+ 
+# 鸣谢
+[ws123](https://github.com/ws123/VoiceLine)
