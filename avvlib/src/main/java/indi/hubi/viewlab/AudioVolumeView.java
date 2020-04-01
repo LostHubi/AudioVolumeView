@@ -58,7 +58,7 @@ public class AudioVolumeView extends View {
      * 矩形圆角半径
      * 初始值单位是dp，读取属性后保存的为px
      */
-    private float rectCorner = 2;
+    private float rectCorner = 0;
     /**
      * rectDuration
      * 移动整个控件宽度所需的时间，默认5000ms
@@ -176,7 +176,7 @@ public class AudioVolumeView extends View {
      * 计算本次重绘应该移动的距离
      */
     private void moveTranslateX() {
-        long timeTmp = latestDrawTime;
+        long timeTmp = System.currentTimeMillis();
         long duration = timeTmp - latestDrawTime;
         latestDrawTime = timeTmp;
         float moveX = duration * rectSpeedX;
