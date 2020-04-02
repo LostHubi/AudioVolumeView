@@ -1,6 +1,9 @@
 # AudioVolumeView
 安卓录音音量显示控件
 
+## 鸣谢
+[ws123:VoiceLine](https://github.com/ws123/VoiceLine)
+
 ## 使用方式
 
 ### 可设置的属性
@@ -55,6 +58,3 @@
 ### 效果图
  ![image](preview.gif)
  
- 
-# 鸣谢
-[ws123](https://github.com/ws123/VoiceLine)
