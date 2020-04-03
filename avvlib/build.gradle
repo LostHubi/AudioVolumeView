@@ -1,4 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'loster'
+    groupId = 'indi.hubi.viewlab'
+    artifactId = 'avvlib'
+    publishVersion = '1.0.0'
+    desc = 'audio volume view for android'
+    website = 'https://github.com/LostHubi/AudioVolumeView'
+}
 
 android {
     compileSdkVersion 28
