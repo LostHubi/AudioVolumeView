@@ -4,6 +4,9 @@
 ## 鸣谢
 [ws123:VoiceLine](https://github.com/ws123/VoiceLine)
 
+## 预览
+![预览图](https://github.com/LostHubi/AudioVolumeView/blob/master/preview_capture.png)
+
 ## 使用方式
 
 ### 引入方式
@@ -68,6 +71,6 @@ dependencies {
         />
 ```
 
-### 效果图
- ![image](preview.gif)
+### 动态效果图
+ ![image](https://github.com/LostHubi/AudioVolumeView/blob/master/preview.gif)
  
