@@ -6,6 +6,19 @@
 
 ## 使用方式
 
+### 引入方式
+修改项目的build.gradle文件
+```groovy
+repositories {
+    maven { 
+        url "https://dl.bintray.com/loster/maven/" 
+    }
+}
+dependencies {
+    implementation "indi.hubi.viewlab:avvlib:1.0.0"
+}
+```
+
 ### 可设置的属性
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
