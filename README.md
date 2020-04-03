@@ -72,5 +72,7 @@ dependencies {
 ```
 
 ### 动态效果图
- ![image](https://github.com/LostHubi/AudioVolumeView/blob/master/preview.gif)
- 
+ <!--![image](https://github.com/LostHubi/AudioVolumeView/blob/master/preview.gif)-->
+<video id="video" controls="" preload="none" poster="https://github.com/LostHubi/AudioVolumeView/blob/master/preview_capture.png">
+        <source id="mp4" src="https://github.com/LostHubi/AudioVolumeView/blob/master/preview.mp4" type="video/mp4">
+</video>
