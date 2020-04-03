@@ -55,24 +55,21 @@ dependencies {
 ```
 ### 代码示例
 ```xml
-        <indi.hubi.viewlab.AudioVolumeView
-            android:id="@+id/avv"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            app:maxVolume="100"
-            app:minVolume="40"
-            app:rectCorner="1dp"
-            app:rectInitHeight="4dp"
-            app:rectSpace="8dp"
-            app:rectWidth="2dp"
-            app:rectOrientation="right_to_left"
-            app:rectDuration="10000"
-            app:rectColor="#FFFFFF"
-        />
+<indi.hubi.viewlab.AudioVolumeView
+    android:id="@+id/avv"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:maxVolume="100"
+    app:minVolume="40"
+    app:rectCorner="1dp"
+    app:rectInitHeight="4dp"
+    app:rectSpace="8dp"
+    app:rectWidth="2dp"
+    app:rectOrientation="right_to_left"
+    app:rectDuration="10000"
+    app:rectColor="#FFFFFF"
+/>
 ```
 
 ### 动态效果图
- <!--![image](https://github.com/LostHubi/AudioVolumeView/blob/master/preview.gif)-->
-<video id="video" controls="" preload="none" poster="https://github.com/LostHubi/AudioVolumeView/blob/master/preview_capture.png">
-        <source id="mp4" src="https://github.com/LostHubi/AudioVolumeView/blob/master/preview.mp4" type="video/mp4">
-</video>
+ ![image](https://github.com/LostHubi/AudioVolumeView/blob/master/preview.gif)
